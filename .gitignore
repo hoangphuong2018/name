@@ -1,2 +1,3 @@
 ../[PRIVATE]/
 /vendor/
+/.composer.lock
