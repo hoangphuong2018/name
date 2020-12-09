@@ -1,4 +1,4 @@
-../[PRIVATE]/
 /vendor/
 /composer.lock
 /.env
+/web/wp/
