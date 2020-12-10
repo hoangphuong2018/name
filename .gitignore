@@ -2,3 +2,6 @@
 /composer.lock
 /.env
 /web/wp/
+/.buildpath
+/.project
+/.settings/
