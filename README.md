@@ -1,6 +1,6 @@
 # Docker
 
-You can get docker here https://github.com/hoangphuong2018/name/wiki/Docker 
+Download Docker https://github.com/hoangphuong2018/name/wiki/Docker 
 
 # Install Guide
 
@@ -17,4 +17,11 @@ You can get docker here https://github.com/hoangphuong2018/name/wiki/Docker
  WP_SITEURL=${URL}/wp
  ```
 * composer install
+
+# Install wp-cli.phar
+
+```
+RUN AS SUDO
+ln -s /var/www/html/vendor/wp-cli/wp-cli/bin/wp /usr/local/bin/wp
+```
 

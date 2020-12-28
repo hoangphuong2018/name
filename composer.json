@@ -12,6 +12,10 @@
 			"name" : "Ben Word",
 			"email" : "ben@benword.com",
 			"homepage" : "https://github.com/retlehs"
+		}, {
+			"name" : "Hoang Phan",
+			"email" : "hoangpv@live.com",
+			"role" : "Developer"
 		}
 	],
 	"keywords" : [
@@ -76,6 +80,8 @@
 	},
 	"scripts" : {
 		"post-root-package-install" : "php -r \"copy('.env.example', '.env');\"",
-		"test" : "phpcs"
+		"test" : "phpcs",
+		"post-install-cmd" : "",
+		"post-update-cmd" : ""
 	}
 }
